@@ -1,0 +1,44 @@
+.dropdown {
+    background-color: #77aced;
+    padding: 10px;
+    width: 100%; 
+}
+#topBtn {
+    display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 20px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #77aced; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px; /* Some padding */
+  font-size: 18px; /* Increase font size */
+}
+#bottomBtn {
+    display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 120px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: blue; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px; /* Some padding */
+  font-size: 18px; /* Increase font size */
+}
+#topBtn:hover, #bottomBtn:hover{
+    opacity: 0.7;
+}
+.option{
+    background-color:#36455e;
+    color: white;
+}
+input.largerCheckBox{
+    width: 25px;
+    height: 25px;
+}
